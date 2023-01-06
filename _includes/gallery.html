@@ -1,0 +1,31 @@
+{% if include.where_expr %}
+    {% assign coll = site.gallery | where_exp: "item", include.where_expr %}
+{% else %}
+    {% assign coll = site.gallery  %}
+{% endif %}
+<section class="no-padding" id="{{ include.id }}">
+    <hr style="border-color: black; border-width: 4px; max-width: 100% !important; margin-bottom: 0px; margin-top: 0px;"></hr>
+    <div class="container-fluid no-padding">
+        <div class="row no-gutter" style="background: black">
+            {% for item in coll %}
+                <div class="col-lg-4 col-sm-6">
+                    <a href="{{ item.button_url }}" class="portfolio-box">
+                        <img src="{{ item.img }}" class="img-responsive" alt="{{ item.alt }}">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    {{ item.category }}
+                                </div>
+                                <div class="project-name">
+                                    {{ item.name }}
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    <hr style="border-color: black; border-width: 4px; max-width: 100% !important; margin-top: 0px;"></hr>
+
+    </div>
+</section>

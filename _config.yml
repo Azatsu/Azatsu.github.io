@@ -1,0 +1,63 @@
+# Site settings
+title: Antonin GALLIOT
+tagline: Antonin GALLIOT
+author: Antonin GALLIOT
+first_button_text: 'My Projects'
+first_button_url: '#portfolio'
+header_img: /img/header.jpg
+home_menu_text: Main Page
+description: "C++ Developer with experience working on different kind of games for PC.
+Experienced with Unreal Engine 4 and comfortable with Unity, I enjoy programming engine tools."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+author-url: ""
+
+# Theme customization
+primary: '#2596be'
+dark: '#222'
+
+# Contact details
+email: antoningalliot@gmail.com
+telephone_number: 
+whatsapp_number: 
+twitter_username: 
+github_username: Azatsu
+instagram_username: 
+facebook_username: 
+linkedin_username: antonin-galliot
+
+defaults:
+  -
+    scope:
+      type: 'project'
+    values:
+      layout: ProjectLayout
+      name: ""
+      category: ""
+      tags:
+      authors:
+      - ""
+      thumbnail: ""
+      image: ""
+      link: ""
+      shortDesc: ""
+
+
+
+# Data collections
+collections:
+  blocks:
+    output: false
+  gallery:
+    output: false
+  project:
+    output: true
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - serve
+  - README.md
+  - LICENCE
+
