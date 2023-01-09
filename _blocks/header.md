@@ -9,5 +9,8 @@ menu_exclude: true
 width: 8 # With of the main block
 header_img: # You can specify a different header image if required e.g. /img/portfolio/1.jpg
 ---
-C++ Developer with experience working on different kind of games for PC.
-Experienced with Unreal Engine 4 and comfortable with Unity, I enjoy programming engine tools.
+
+
+C++ Developer with multiple experiences working on different kind of games or projects. \
+Experienced with Unreal Engine 4 and comfortable with Unity. \
+I enjoy programming engine tools and discovering new things.

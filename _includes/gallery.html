@@ -4,9 +4,9 @@
     {% assign coll = site.gallery  %}
 {% endif %}
 <section class="no-padding" id="{{ include.id }}">
-    <hr style="border-color: black; border-width: 4px; max-width: 100% !important; margin-bottom: 0px; margin-top: 0px;"></hr>
-    <div class="container-fluid no-padding">
-        <div class="row no-gutter" style="background: black">
+    <hr style="border-color: black; border-width: 4px; max-width: 100% !important; margin-bottom: 0px; margin-top: 0px; background: black; "></hr>
+    <div class="container-fluid no-padding"  style="background: black; width: 100%; margin-bottom: -10px;">
+        <div class="row no-gutter" style="background: black; width: 100%; margin-bottom: 0px;">
             {% for item in coll %}
                 <div class="col-lg-4 col-sm-6">
                     <a href="{{ item.button_url }}" class="portfolio-box">
@@ -25,7 +25,7 @@
                 </div>
             {% endfor %}
         </div>
-    <hr style="border-color: black; border-width: 4px; max-width: 100% !important; margin-top: 0px;"></hr>
+        <hr style="border-color: black; border-width: 1px; max-width: 100% !important; margin-top: -15px;"></hr>
 
     </div>
 </section>

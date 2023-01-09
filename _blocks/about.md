@@ -2,8 +2,7 @@
 title: About me
 name: about
 type: primary
-button_text: Get Started!
-button_url: "#"
+
 menu_text: null
 menu_exclude: false
 width: 8

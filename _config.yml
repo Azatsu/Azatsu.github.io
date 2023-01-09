@@ -4,7 +4,7 @@ tagline: Antonin GALLIOT
 author: Antonin GALLIOT
 first_button_text: 'My Projects'
 first_button_url: '#portfolio'
-header_img: /img/header.jpg
+header_img: /img/mountainsHeader.jpg
 home_menu_text: Main Page
 description: "C++ Developer with experience working on different kind of games for PC.
 Experienced with Unreal Engine 4 and comfortable with Unity, I enjoy programming engine tools."
@@ -37,8 +37,8 @@ defaults:
       tags:
       authors:
       - ""
-      thumbnail: ""
-      image: ""
+      thumbnail: "/img/solid.png"
+      image: "/img/solid.png"
       link: ""
       shortDesc: ""
 

@@ -1,6 +1,6 @@
 ---
 title: Main Skills
-name: services
+name: skills
 type: light
 button_text: null
 button_url: null

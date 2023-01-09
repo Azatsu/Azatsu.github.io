@@ -9,7 +9,7 @@
 
 
 <body id="page-top">
-    {% include nav.html blocks=page.blocks %}
+    {% include nav.html blocks=page.blocks color=page.colorTag %}
 
     <section class="hero is-fullheight has-text-centered" id="ProjectP">
         <div class="hero-body">
@@ -27,7 +27,7 @@
               <div class="subtitle column is-5 has-text-left-desktop has-text-left-fullhd has-text-left-tablet has-text-center-mobile">
                 {% unless page.description.size == 0 %}
                 <p id="description" class=" is-small has-text-weight-medium is-uppercase"><b/><b/><b/><b/><b/><b/><b/><b/></p>
-                <p id="description" class="content is-small has-text-weight-medium is-uppercase">{{page.shortDesc | strip | strip_html | strip_newlines }}</p>
+                <p id="description" style="background-color: {{page.colorRes}};" class="content is-small has-text-weight-medium is-uppercase">{{page.shortDesc | strip | strip_html | strip_newlines }}</p>
                 {% endunless %}
                 <p class="subtitle is-6 is-uppercase has-text-weight-normal has-text-black-ter">Project made by
                    <p><b>
@@ -46,7 +46,7 @@
                   <i class="fas fa-tags"></i>
                   {% assign i = 0 %}
                   {% for tags in page.tags %}
-                  <span class="tag is-link">{{page.tags[i]}}</span>
+                  <span style="background-color: {{page.colorTag}};" class="tag is-link">{{page.tags[i]}}</span>
                   {% assign i = i | plus:1 %}
                   {% endfor %}
                 </p>
@@ -55,7 +55,7 @@
               </div>
             </div>
             <hr class="has-background-black">
-            <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
+            <div style="background-color: {{page.colorDesc}};" class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
               <p>{{ content }}</p>
             </div>
            

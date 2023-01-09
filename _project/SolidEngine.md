@@ -4,16 +4,21 @@ name: Solid Engine
 category: Game Engine
 tags:
 - C++
-- Git
+- Game Engine
 - ImGUI
 - ECS
+- Git
 authors:
 - Tristan FRANCILLONNE
 - Antonin GALLIOT
 - Guillaume LEFEBVRE
 - Ryan SANDRIN
 image: "/img/portfolio/SolidEngine.png"
-shortDesc: Solid Engine is a game engine made from scratch in C++ as a school project. The objective was to develop an important project in pure C++.
+shortDesc: Solid Engine is a game engine made from scratch in C++ as a school project.
+  The objective was to develop an important project in pure C++.
+colorRes: '#e8e8e8'
+colorDesc: '#f5f5f5'
+colorTag: '#5e5e5e'
 ---
 
 <style>
@@ -40,11 +45,12 @@ iframe {
 </style>
 ## Informations
 
-{: style="margin-left: 1.5em" }
+{: style="margin-left: 1.5em;" }
 This project has been made as a 2nd year student project. \
-Developing this has helped us to better understan how were working games engines like Unreal Engine or Unity, trying to reproduce them. \
+Developing an engine by our own has helped us to better understand how are working bigger games engines like Unreal Engine or Unity, trying to reproduce them. \
 Our team focused on developing as most features as possible thanks to an easily modulable ECS. \
-I personally worked on the engine's and projects UI and on a few ECS modules like the audio engine (OpenAL) or the particle system.
+I personally worked on the engine's and projects UI and on a few ECS modules like the audio engine (OpenAL) or the particle system. \
+The group was made of 4 developers and 1 mentor ([Maxime Rouffet](https://github.com/mrouffet)) who gave us pieces of advice during the production which lasted 5 months.
 
 ## Features
 - Launcher / Project Management

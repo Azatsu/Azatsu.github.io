@@ -1,9 +1,11 @@
 <header {% if include.header_img %} style="background-image: url({{ include.header_img }}" {% endif %} >
     <div class="header-content" >
         <div class="header-content-inner">
-            <h1>{{ site.tagline }}</h1>
-            <hr>
+            <h1 style="margin-top: 1.5em; font-size: 3.5em;">{{ site.tagline }}</h1>
+            <hr style="margin-top: 0.5em; margin-bottom: 10em;">
+            <span style="color: #FFFFFF;">
             {{ include.body }}
+            </span>
             <a href="{{ site.first_button_url }}" class="btn btn-primary btn-xl page-scroll">{{ site.first_button_text }}</a>
         </div>
     </div>
